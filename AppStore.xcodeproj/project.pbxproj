@@ -15,6 +15,7 @@
 		2E8850802B0D241900E35514 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88507F2B0D241900E35514 /* AppStoreTests.swift */; };
 		2E88508A2B0D241900E35514 /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8850892B0D241900E35514 /* AppStoreUITests.swift */; };
 		2E88508C2B0D241900E35514 /* AppStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88508B2B0D241900E35514 /* AppStoreUITestsLaunchTests.swift */; };
+		2E88509C2B0D280900E35514 /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88509B2B0D280900E35514 /* UIViewPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E8850852B0D241900E35514 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8850892B0D241900E35514 /* AppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITests.swift; sourceTree = "<group>"; };
 		2E88508B2B0D241900E35514 /* AppStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E88509B2B0D280900E35514 /* UIViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,9 @@
 		2E8850672B0D241100E35514 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				2E88509A2B0D275A00E35514 /* Cells */,
+				2E8850992B0D274A00E35514 /* Models */,
+				2E8850982B0D273300E35514 /* Utils */,
 				2E8850682B0D241100E35514 /* AppDelegate.swift */,
 				2E88506A2B0D241100E35514 /* SceneDelegate.swift */,
 				2E88506C2B0D241100E35514 /* ViewController.swift */,
@@ -122,6 +127,28 @@
 				2E88508B2B0D241900E35514 /* AppStoreUITestsLaunchTests.swift */,
 			);
 			path = AppStoreUITests;
+			sourceTree = "<group>";
+		};
+		2E8850982B0D273300E35514 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E88509B2B0D280900E35514 /* UIViewPreview.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2E8850992B0D274A00E35514 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E88509A2B0D275A00E35514 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E88506D2B0D241100E35514 /* ViewController.swift in Sources */,
+				2E88509C2B0D280900E35514 /* UIViewPreview.swift in Sources */,
 				2E8850692B0D241100E35514 /* AppDelegate.swift in Sources */,
 				2E88506B2B0D241100E35514 /* SceneDelegate.swift in Sources */,
 			);
