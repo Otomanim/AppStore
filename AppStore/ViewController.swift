@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let sections = [Section].parse(jsonFile: "sampleData")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
