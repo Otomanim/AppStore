@@ -2,7 +2,7 @@
 //  Section.swift
 //  AppStore
 //
-//  Created by Evandro Rodrigo Minamoto on 21/11/23.
+//  Created by Evandro Rodrigo Minamoto 
 //
 
 import Foundation
