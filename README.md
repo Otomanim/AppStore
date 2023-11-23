@@ -10,4 +10,15 @@
 
 ![App store gif](https://github.com/Otomanim/AppStore/blob/main/20231122_155302.gif)
 </h1>
+<h1>
+  Autor
+  <h2>
+    Evandro Rodrigo Minamoto
+  </h2>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/evandrominamoto/">LinkedIn</a></li>
+    <li><a href="https://github.com/Otomanim">GitHub</li>
+  </ul>
+  
+</h1>
 
